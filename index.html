@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Document</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    
+    <div class="container">
+        
+        <h1>CADASTRO DE CLIENTES</h1>
+
+    <form class="form-cadastro" id="form-cadastro">
+
+        <div class="full-box">
+            <label for="cliente">Cliente</label>
+              <input type="text" class="cliente" id="cliente" placeholder="Razão Social" name="cliente">
+        </div>
+
+        <div class="full-box">
+            <label for="cnpj">CNPJ</label>
+            <input type="number" maxlength="14" class="cnpj" id="cnpj" placeholder="CNPJ" name="cnpj">
+        </div>
+
+        <div class="full-box">
+            <label for="contato">Contato</label>
+            <input type="number" class="contato" id="contato" placeholder="Contato" name="contato">
+        </div>
+
+        <div class="half-box">
+            <label for="sistema">Sistema</label>
+            <input type="text" class="sistema" id="sistema" placeholder="Sistema" name="sistema">
+        </div>
+
+        <div class="half-box">
+            <label for="acesso">Acesso</label>
+            <input type="text" class="acesso" id="acesso" placeholder="Acesso" name="acesso">
+        </div>
+
+        <div class="full-box">
+           <input type="submit" value="CADASTRAR CLIENTE">
+        </div>
+    </div>
+
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+</html>
